@@ -1,67 +1,66 @@
 .statistic {
-    background-color: rgb(234, 237, 248);
-    padding: 60px;
-    width: 500px;
-    margin-right: auto;
-    margin-left: auto;
+  background-color: rgb(234, 237, 248);
+  padding: 60px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .title {
-    background-color: #fff;
-    width: 300px;
-    height: 100px;
-    padding: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    color: #454545;
-
+  background-color: #fff;
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #454545;
 }
 
 .statList {
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    height: 60px;
-    padding: 0;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0;
-    background-color: rgb(214, 203, 221);
-    border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 60px;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  background-color: rgb(214, 203, 221);
+  border-radius: 8px;
 }
 
 .item {
-    display: block;
-width: 60px;
+  display: block;
+  width: 60px;
 }
 
 .label {
-    display: flex;
-justify-content: center;
-font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: #fff;
 }
 
 .percentage {
-    display: flex;
-justify-content: center;
-font-style: bold;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
