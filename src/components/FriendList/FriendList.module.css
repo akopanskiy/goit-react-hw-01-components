@@ -1,44 +1,50 @@
 .friendList {
-    list-style: none;
+  list-style: none;
 }
 
 .item {
-    display: flex;
-    width: 150px;
-    height: 80px;
-    padding: 0;
-    list-style: none;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 5px;
-    background-color:#fff;
-    border-radius: 8px;
-    border: 1px solid tomato;
+  display: flex;
+  width: 150px;
+  height: 80px;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid tomato;
 }
 
-.avatar{
-    margin-right: 5px;
-    margin-left: 5px; 
-    margin-top: auto;
-    margin-bottom: auto;
-    border-radius: 50%;
-    overflow: hidden;
+.avatar {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .name {
-    font-style: bold;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
-.status {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-left: 5px;
-    /* background-color: green; */
+.statusGreen {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: green;
 }
-
+.statusRed {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: red;
+}

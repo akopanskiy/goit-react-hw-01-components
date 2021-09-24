@@ -1,13 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Statistic.module.css';
-
-function randColor() {
-  var r = Math.floor(Math.random() * 256),
-    g = Math.floor(Math.random() * 256),
-    b = Math.floor(Math.random() * 256);
-  return '#' + r.toString(16) + g.toString(16) + b.toString(16);
-}
+import randColor from '../../helpers/randColor';
 
 const Statistic = ({ title, stats }) => {
   return (
@@ -15,14 +9,14 @@ const Statistic = ({ title, stats }) => {
       {title && <h2 className={styles.title}>{title}</h2>}
 
       <ul className={styles.statList}>
-        {stats.map(stats => (
+        {stats.map(({ id, label, percentage }) => (
           <li
-            key={stats.id}
+            key={id}
             className={styles.item}
             style={{ backgroundColor: randColor() }}
           >
-            <span className={styles.label}>{stats.label}</span>
-            <span className={styles.percentage}>{stats.percentage}</span>
+            <span className={styles.label}>{label}</span>
+            <span className={styles.percentage}>{percentage}</span>
           </li>
         ))}
       </ul>
